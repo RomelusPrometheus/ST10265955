@@ -12,9 +12,9 @@ import javax.swing.JOptionPane;
 
 public class PROGPOEPART2 {
     public static void main(String[] args) {
-        Login[] users = new Login[1]; // Array to store user accounts, assuming 3 users for demonstration
+        Login[] users = new Login[1];
 
-        // Register users
+        // Registering the user
         for (int i = 0; i < users.length; i++) {
             users[i] = new Login(); // Initialize each element in the array as a Login object
             String newUsername = JOptionPane.showInputDialog("Register User "  + "\nEnter username:");
