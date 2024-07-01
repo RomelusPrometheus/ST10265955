@@ -58,4 +58,16 @@ public class Task {
     public int getDuration() {
         return duration;
     }
+
+    public String getTaskName() {
+        return taskName;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public String getDeveloper() {
+        return firstName + " " + lastName;
+    }
 }
